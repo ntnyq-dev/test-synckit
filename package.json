@@ -1,0 +1,14 @@
+{
+  "name": "synckit-demo",
+  "type": "module",
+  "scripts": {
+    "start": "pnpm run build && tsx src/index.ts",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "synckit": "^0.8.5",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  }
+}
